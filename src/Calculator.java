@@ -137,7 +137,13 @@ public class Calculator extends Frame implements ActionListener{
         buttonClearEntry = new CalculatorButton("CE", this, 50);
         buttonClear = new CalculatorButton("C", this, 51);
         buttonBackspace = new CalculatorButton("backspace", this, 52);
-
+        
+        this.addWindowListener(new WindowAdapter(){
+            @Override
+            public void windowClosing(WindowEvent e){
+                System.exit(0);
+            }
+        });
 
     }
 
