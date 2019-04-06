@@ -12,7 +12,7 @@
 7. 阶乘运算(n!)
 8. 求模运算(x mod y)
 9. 提供Pi、自然常数e的数值
-10. 提供内存保留方法MS(Memory Save)、M+、M-、MR(Memory Read)、MC(Memory Clear)
+10. 提供内存保留功能：MS(Memory Save)、M+、M-、MR(Memory Read)、MC(Memory Clear)
 
 ### 编译环境
 + MacOS
